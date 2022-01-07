@@ -117,10 +117,8 @@ section#box-area {
 }
 
 #develop-area {
-    background: tomato;
-    background-repeat: no-repeat;
-    background-size: 200px;
-    background-position: 5% 30%;
+    background: url(/images/pictures/app.png);
+
     margin-bottom: 85px;
 }
 
@@ -154,11 +152,8 @@ section#box-area {
 }
 
 #community-area {
-    background: tomato;
-    background-repeat: no-repeat;
-    background-size: 180px;
-    background-position: 95% 75%;
-    margin-bottom: 0px;
+    background: url(/images/pictures/app.png);
+
     padding-bottom: 80px;
 }
 
