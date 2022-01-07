@@ -118,8 +118,10 @@ section#box-area {
 
 #develop-area {
     background-image: url(../images/shapes/shape-1.png);
-
     margin-bottom: 85px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 5% 30%;
 }
 
 .develop-image {
@@ -153,8 +155,10 @@ section#box-area {
 
 #community-area {
     background-image: url(../images/shapes/shape-1.png);
-
     padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: 95% 84%;
 }
 
 .community-wrapper {
