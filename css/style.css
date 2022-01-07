@@ -117,7 +117,7 @@ section#box-area {
 }
 
 #develop-area {
-    background: url(/images/pictures/app.png);
+    background-image: url(/images/pictures/app.png);
 
     margin-bottom: 85px;
 }
@@ -152,7 +152,7 @@ section#box-area {
 }
 
 #community-area {
-    background: url(/images/pictures/app.png);
+    background-image: url(/images/pictures/app.png);
 
     padding-bottom: 80px;
 }
