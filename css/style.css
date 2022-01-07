@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Moon+Dance&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+section {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+body {
+    margin: 0px;
+    font-family: "work sans", sans-serif;
+}
+
+h1 {
+    font-family: poppins, sans-serif;
+}
+
+.container {
+    width: 1075px;
+    margin: 0px auto;
+}
+
+.mission-left {
+    width: 46%;
+    margin-top: 80px;
+    float: left;
+}
+
+.mission-right {
+    width: 40%;
+    margin-left: 14%;
+    float: right;
+    margin-top: 50px;
+}
+
+.mission-right img {
+    width: 90%;
+}
+
+.mission-title h1 {
+    color: rgb(34, 34, 34);
+    font-size: 60px;
+    padding: 0px 0px 0px 10px;
+    border-left: 3px solid tomato;
+    font-family: nunito, sans-serif;
+    margin-bottom: 30px;
+}
+
+.mission-title span {
+    color: rgb(251, 177, 40);
+}
+
+.mission-desc p {
+    font-size: 19px;
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+}
+
+a.mission-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: rgb(251, 75, 43);
+    padding: 12px 35px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.mission-desc span {
+    display: block;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+}
+
+h1.mission-title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(19, 16, 58);
+}
+
+.box-single p {
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+}
+
+.box-wrapper {
+    display: flex;
+}
+
+.box-single.box-1 {
+    background: rgb(237, 245, 246);
+    margin-right: 20px;
+}
+
+.box-image {
+    height: 135px;
+}
+
+.box-image img {
+    width: 48%;
+}
+
+.box-single.box-3 {
+    background: rgb(255, 244, 214);
+}
+
+.box-single.box-2 {
+    background: rgb(255, 238, 238);
+    margin-right: 20px;
+}
+
+.box-single {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+section#box-area {
+    margin-bottom: 70px;
+}
+
+#develop-area {
+    background: url("/images/shapes/shape-1.png") 5% 30% / 200px no-repeat;
+    margin-bottom: 85px;
+}
+
+.develop-image {
+    width: 35%;
+}
+
+.develop-image img {
+    width: 100%;
+}
+
+.develop-desc {
+    width: 55%;
+    padding-left: 81px;
+}
+
+.develop-wrapper {
+    display: flex;
+}
+
+.develop-desc p {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+}
+
+.develop-desc h1 {
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#community-area {
+    background: url("/images/shapes/shape-1.png") 95% 92% / 180px no-repeat;
+    margin-bottom: 0px;
+    padding-bottom: 80px;
+}
+
+.community-wrapper {
+    display: flex;
+}
+
+.community-desc {
+    width: 50%;
+}
+
+.community-image {
+    width: 50%;
+}
+
+.community-image img {
+    width: 70%;
+    margin-left: 30%;
+}
+
+.community-desc p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+
+.community-desc h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: rgb(51, 51, 51);
+}
+
+input {
+    width: 44%;
+    margin-bottom: 35px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.message-wrapper {
+    padding: 0px 100px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    width: 235px;
+    margin: auto !important;
+}
+
+section#message-area {
+    background: rgb(255, 244, 244);
+    padding: 35px 0px;
+    margin-bottom: 0px;
+}
+
+footer#footer-area {
+    background: rgb(11, 13, 23);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer#footer-area h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+footer#footer-area span {
+    color: rgb(245, 90, 62);
+}
+
+footer#footer-area p {
+    color: rgb(115, 146, 171);
+}
