@@ -109,6 +109,7 @@ h1.mission-title {
 }
 
 .box-single {
+    width: 27%;
     padding: 30px;
     border-radius: 20px;
 }
